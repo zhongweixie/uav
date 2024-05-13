@@ -1,0 +1,18 @@
+
+path:xunliandata
+train:train/images
+val:valid/images
+
+names:
+  0:bridge
+  1:bunker
+  2:car
+  3:tanke
+  4:tent
+  5:land
+  
+nc:6
+
+
+
+

@@ -1,0 +1,13 @@
+<launch>
+
+	<group ns="iris_0">
+	    <node pkg="controller" type="controll_node" name="controll_node" output="screen">
+            <param name="use_sim_" value="true" type="bool"/>
+			<param name="track_mode_" value="1" type="int"/><!--0  位置；  1  速度-->
+
+        </node>
+
+
+	</group>
+
+</launch>

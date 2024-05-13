@@ -1,0 +1,7 @@
+<launch>
+    
+    <node name="offboard_node" pkg="offboard" type="offboard_node" output="screen"/>     
+    <node name="xiaosai_image_conventer" pkg="offboard" type="xiaosai_detect_target.py" output="screen"/>    
+     
+  
+</launch>

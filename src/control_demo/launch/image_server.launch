@@ -1,0 +1,3 @@
+<launch>
+    <node name="image_server" pkg="control_demo" type="image_server" output="screen" />
+</launch>
